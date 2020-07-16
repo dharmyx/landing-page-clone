@@ -75,14 +75,14 @@ div > p.anytime {
 }
 
 div.search-inputField {
-    width: 70%;
+    width: 90%;
     margin: 1rem 0 6rem 5rem;
     padding: 1rem 0;
 }
 
-input[type=search],
+
 input[type=text] {
-    width: 52%;
+    width: 38%;
     padding: .9rem 2.1rem;
     margin-left: -12px;
     font-size: 1rem;
@@ -93,9 +93,7 @@ input[type=text] {
     outline: none;
     box-shadow: 0px 10px 30px rgba(3, 54, 59, .8);
 }
-input[type=text] {
-    width: 31%;
-}
+
 .fa-map-marker-alt, .fa-calendar-plus {
     font-size: 1.2rem;
     color: #707070;
