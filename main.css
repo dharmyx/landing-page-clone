@@ -96,13 +96,13 @@ input[type=text] {
 input[type=text] {
     width: 31%;
 }
-.fas, .far {
+.fa-map-marker-alt, .fa-calendar-plus {
     font-size: 1.2rem;
     color: #707070;
     position: relative;
     left: .6rem;
 }
-.far {
+.fa-calendar-plus  {
     left: .8rem;
 }
 
@@ -214,6 +214,11 @@ div.footBox3 {
     }
     input[type=text] {
         width: 100%;
+    }
+    .fa-map-marker-alt, .fa-calendar-plus {
+        font-size: 1rem;
+        left: .8rem;
+        top: 2.75rem;
     }
     button.search-button {
         margin: 10px 0;
@@ -400,6 +405,16 @@ div.footBox3 {
         text-decoration: none;
         color: #fff;
     }
+    .menu-wrap .menu > div > div > ul > li a.sign {
+        border: 1px solid;
+        padding: 5px 8px;
+        color: #ffffff;
+    }
+    .menu-wrap .menu > div > div > ul > li a.sign:hover {
+        transition: all 1.5s;
+        background-color: #fff;
+        color: #222222;
+    }
 
     div.big-text {
         width: 85%;
@@ -416,6 +431,9 @@ div.footBox3 {
 }
 
 @media (max-width: 425px) {
+    main {
+        max-width: 95%;
+    }
     div.menu-wrap {
         right: 90px;
     }
