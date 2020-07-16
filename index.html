@@ -3,23 +3,87 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Landing Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/9860df61a3.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
 
         <main>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#newArrivals">About</a></li>
+                                <li><a href="#discount">Services</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <header class="heading">
+                
+                <div class="link">
                     <p><a href="#">Home</a></p>
                     <p><a href="#">Contribute</a></p>
                     <p><a href="#">Destination</a></p>
                     <p><a href="#">Blog</a></p>
-                    <p><a href="#">Sign Up</a></p>
+                    <p><a href="#" class="btn-signup">Sign Up</a></p>
+                </div>
             </header>
+            <article>
+                <div class="big-text" data-aos="zoom-in" data-aos-duration="1000">
+                    <h1>Find amazing things to do.</h1>
+                    <p class="anytime">Anytime, anywhere.</p>
+                </div>
+                <div class="search-inputField">
+                    <form action="#">
+
+                        <i class="fas fa-map-marker-alt"></i><input type="search" name="search" id=""
+                            placeholder="Ex. Amsterdam, New York, Paris…">
+
+
+                        <i class="far fa-calendar-plus"></i><input type="text" name="date" id="" placeholder="Dates">
+
+                        <button type="submit" class="search-button">Search</button>
+                    </form>
+                </div>
+
+                <div class="footBox">
+                    <div class="footBox1" data-aos="zoom-in" data-aos-duration="1000">
+                        <h3>Grand Canyon All-<br>American Helicopter Tour</h3>
+                        <p class="from">from $396</p>
+                        <p><a href="#" class="free"><i class="fas fa-check"></i>Free Cancellation</a></p>
+                    </div>
+                    <div class="footBox2" data-aos="zoom-in" data-aos-duration="2000">
+                        <h3>Skip the Line: NYC One<br>World Observatory Ticket</h3>
+                        <p class="from">from $40</p>
+                        <p><a href="#" class="free"><i class="far fa-clock"></i>3 hours</a></p>
+                    </div>
+                    <div class="footBox3" data-aos="zoom-in" data-aos-duration="3000">
+                        <h3>Harry Potter Tour of Warner<br> Bros. Studio in London</h3>
+                        <p class="from">from $199</p>
+                        <p><a href="#" class="free"><i class="fas fa-check"></i>Free Cancellation</a></p>
+                    </div>
+                </div>
+
+            </article>
         </main>
 
         <!--<script src="" async defer></script>-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
